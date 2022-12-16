@@ -18,7 +18,6 @@ html {
     padding-right: 12px;
     margin-left: auto;
     margin-right: auto;
-    
 }
 /*Studio*/
 body {
@@ -44,13 +43,11 @@ img {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
-    width: 1440px;
     margin: auto;
 }
 /*Header*/
 .page-heder{
     background-color: FFFFFF;
-    width: 1440px;
     height: 72px;
     margin: auto;
     padding-top: 24px;
@@ -310,10 +307,12 @@ img {
     justify-content: center;
     align-items: center;
 }
+
 .social-media-icon {
     color: #FFFFFF;
     display:flex ;
 }
+/*Section 4*/
 .companies {
     display: flex;
     justify-content: space-around;
@@ -333,9 +332,18 @@ img {
     --shadow:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) 
     drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));   
 }
+.custemer-link:hover,
+.custemer-link:focus
+{
+    border: 1px solid #4D5AE5;
+}
 .custemer-icon {
-    color: #8E8F99;
-    display: flex;
+    fill: #8E8F99;
+}
+.custemer-link:hover .custemer-icon,
+.custemer-link:focus .custemer-icon
+{
+    fill:#4D5AE5;
 }
 /*footer*/
 footer {
@@ -345,7 +353,6 @@ footer {
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 1440px;
     margin: auto;
     display: flex;
     justify-content:flex-start;
